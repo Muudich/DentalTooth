@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Black'), local('SourceCodePro-Black'),
+        url('SourceCodePro-Black.woff2') format('woff2'),
+        url('SourceCodePro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro SemiBold'), local('SourceCodePro-SemiBold'),
+        url('SourceCodePro-SemiBold.woff2') format('woff2'),
+        url('SourceCodePro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro ExtraLight'), local('SourceCodePro-ExtraLight'),
+        url('SourceCodePro-ExtraLight.woff2') format('woff2'),
+        url('SourceCodePro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'),
+        url('SourceCodePro-Bold.woff2') format('woff2'),
+        url('SourceCodePro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'),
+        url('SourceCodePro-Regular.woff2') format('woff2'),
+        url('SourceCodePro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'),
+        url('SourceCodePro-Medium.woff2') format('woff2'),
+        url('SourceCodePro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Light'), local('SourceCodePro-Light'),
+        url('SourceCodePro-Light.woff2') format('woff2'),
+        url('SourceCodePro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro ExtraBold'), local('SourceCodePro-ExtraBold'),
+        url('SourceCodePro-ExtraBold.woff2') format('woff2'),
+        url('SourceCodePro-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,383 @@
+ol,
+ul {
+  margin: 0; /* Отступ слева в браузере IE и Opera */
+  padding: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+  list-style-type: none; /* Убираем маркеры */
+}
+
+#page-container,
+html,
+body 
+{
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.header,
+.footer
+{
+	flex: none;
+	padding: 20px 0px 0px 0px;
+}
+
+.phone
+{
+	color: black;
+	font-weight: bold;
+}
+
+.content
+{
+	flex: 1 0 auto;
+}
+
+.spacer
+{
+	width: 90%;
+	min-width: 64rem;
+	max-width: 144rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spacer2
+{
+	width: 75%;
+	min-width: 62rem;
+	max-width: 136rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input 
+{
+  box-sizing: border-box;
+}
+
+
+.header-block1,
+.header-block2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-transform: uppercase;
+	color: black;
+}
+
+
+.menu 
+{
+	padding-left: 0;
+	margin-bottom: 0;
+	font-size: 24px;
+	word-spacing: 10px;
+}
+
+.menu li 
+{
+	display: inline-block;
+}
+
+.menu2 
+{
+text-align: right;
+padding-left: 0;
+margin-bottom: 0;
+font-size: 24px;
+word-spacing: 10px;
+}
+
+.menu2 li 
+{
+	display: inline-block;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.container-current
+{
+
+}
+
+.container-current h2
+{
+	font-size: 2.3rem;
+}
+
+.paragraph1 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1300px;
+   margin: 0 auto;
+	margin-bottom: 5%;
+}
+
+.paragraph1 p
+{
+	flex: none;
+	width: 47%;
+	font-size: 1.5rem;
+}
+
+.current
+{
+	margin-bottom: 50px;
+}
+
+.current p,
+.current h2
+{
+	text-align: center;
+	margin: 0%;
+}
+
+.foto
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+   padding: auto 10px auto 10px;
+	margin-bottom: 200px;
+}
+
+.gray
+{
+	background-color: #f8f6f6;
+}
+
+.container-blocks
+{
+   margin: 0px 540px 0px 540px;
+	padding: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-decoration: none;
+}
+
+.gift-menu
+{
+	font-size: 23px;
+	padding: 50px 50px 0px 80px;
+}
+
+.container-blocks2
+{
+	margin: 0px 540px 65px 540px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	text-decoration: none;
+	padding: 0px 0px 80px 0px;
+}
+
+.container-blocks2 picture
+{
+	
+}
+
+.clothes
+{
+	font-size: 23px;
+	margin: 0px 0px 0px 150px;
+	padding: 80px 80px 0px 80px;
+	text-align: right;
+}
+
+.gray2
+{
+	background-color: #f8f6f6;
+}
+
+.Wines-Deluxe
+{
+	flex-wrap: nowrap;
+}
+
+.info
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.info picture
+{
+	padding: 0px 5px 0px 5px;
+}
+
+.info-text
+{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: rgb(32 53 87);
+	padding: 40px 65px 40px 65px;
+	width: 333px;
+	height: 492px;
+}
+
+.news h2
+{
+	font-size: 40px;
+	text-align: center;
+	margin: 95px 0px 0px 0px;
+}
+
+.news-menu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px 700px 0px 700px;
+}
+
+.one
+{
+	width: 450px;
+	height: 800px;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.one p
+{
+	font-size: 20px;
+}
+
+.two
+{
+	width: 450px;
+	height: 800px;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.two p
+{
+	font-size: 20px;
+}
+
+.three
+{
+	width: 450px;
+	height: 800px;
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.three p
+{
+	font-size: 20px;
+}
+
+.benefits
+{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.benefits h2
+{
+	font-size: 40px;
+	text-align: center;
+	margin: 0px 0px 15px 1250px;
+}
+
+.benefits-menu
+{
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0px 700px 0px 700px;
+}
+
+.footer
+{
+	margin-top: auto;
+
+	font-size: 24px;
+	
+	background-color: rgb(32 53 87);
+	color: white;
+}
+
+.footer a
+{
+	color: white;
+}
+
+.footer-blocks
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.footer-block
+{
+	flex: none;
+	width: 20%;
+	font-weight: bold;
+	color: white;
+}
+
+.footer-block:last-of-type
+{
+	text-align: right;
+}
+
+.footer-block2
+{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex: 1 1 auto;
+}
+
+.footer-menu
+{
+	line-height: 2;
+}
+
+.footer-menu a
+{
+	color: white;
+}
+
+div.header
+{
+	float: left;
+}
+
+.footer-block3
+{
+	display: flex;
+	flex-wrap: wrap;
+}
